@@ -8,7 +8,7 @@ This is a bash script that is intended to be run by cron. Utilizing Amazon AWS, 
 Usage
 -----
 ```
-backup-volume.sh -k 10 -d "my-backup" -v vol-f0f0f0f0
+backup-volume.sh -k 10 -d "my-backup" vol-f0f0f0f0
 ```
 
 Options
