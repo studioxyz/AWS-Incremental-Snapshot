@@ -7,7 +7,7 @@ This is a bash script that is intended to be run by cron. Utilizing Amazon AWS, 
 
 Requirements
 ------------
-AWS Command Line Interface must be installed on the server. The cron user that runs the the script must have AWS credentials configured, or the AWS access key and secret access key available as environment variables. This script expects output in text format and will not work if output is received as JSON. Documentation on how to configure AWS-CLI can be found here: [Configuring the AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+AWS Command Line Interface must be installed. The user that runs the the script must have AWS credentials configured, or the AWS access key and secret access key available as environment variables. This script expects output in text format and will not work if output is received as JSON. Documentation on how to configure AWS-CLI can be found here: [Configuring the AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
 
 Usage
 -----
